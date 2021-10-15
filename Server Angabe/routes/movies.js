@@ -4,6 +4,6 @@ const { getMovie, rentMovie } = require('../controllers/funky');
 const router = express.Router();
 
 router.get('/movies', getMovie);
-router.patch('/cars/:id', rentMovie);
+router.patch('/movies/:id', rentMovie);
 
 module.exports = router;
