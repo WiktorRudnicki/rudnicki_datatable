@@ -1,0 +1,8 @@
+GET http://127.0.0.1:3000/cars
+###
+DELETE http://localhost:3000/cars/2
+###
+PATCH http://localhost:3000/cars/3
+Content-Type: {
+
+}
